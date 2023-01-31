@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background: url(images/hero-image.jpg);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+}
+
+h1 {
+    background: #457B9D;
+}
+
+h2 {
+    background: #457B9D;
+    width: 50%
+}
+
+h3 {
+    padding-top: 20px;
+    color: #1D3557
+}
+
+#activities {
+    margin-top: -18px;
+    background: #bde0fe;
+}
+
+#activities:hover {
+    background: #fefae0;
+}
+
+#split {
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+    color: #1D3557
+}
+
+.touristic {
+    width: 25%;
+    margin: 0 20px;
+}
+
+.activities-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.bold-txt {
+    font-weight: bold;
+}
+
+.italic-txt {
+    font-style: italic;
+}
+
+#card {
+    border-bottom: 5px solid black;
+    border-radius: 10%;
+    margin: 50px auto;
+    padding: 10px 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background: #a2d2ff;
+    color: #1D3557
+}
+
+#card:hover {
+    background: #fefae0;
+}
+
+#card-img {
+    padding: 10px 15px 10px 5px;
+}
+
+#selfie {
+    width: 150px;
+    border-radius: 15%;
+}
